@@ -49,5 +49,51 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 ***
 
 ## How to execute CSS animatation
-To execute the animation on the element you must use one of the elements [Loaders table](#loaders)
+To execute the animation on the element you must use one of the elements [Loaders table](#loaders); here is an example:
+```html
+<div class="animate-roll-in">Rolling in div.</div>
+```
+to override certain animations you can use that by using the [Options table](#Options); here is an example:
+```html
+<div class="animate-roll-in animate-speed-fast">Fast rolling in div.</div>
+```
 
+***
+
+### Executing in JS
+To execute in javascript you would need to import the script
+```html
+<!--This element is an example for the docs.-->
+<div id="testElement">Test text</div>
+<script src=".../WebAnimate.js"></script>
+<script>
+// execute code here
+</script>
+```
+
+Then you want to create a variable with the class:
+```js
+let x = new WebAnimate('#testElement');//Requires a target(by default it will select all elements).
+```
+The to create the animation type by using **createAnimation()**:
+```js
+/**'
+     * Creates animations to all alaments
+     * @param {object|string} animate - Returns animation name or object
+     * @param {string} speed - Property defines how long an animation should take to complete one cycle.
+     * @param {int} delay - Property specifies a delay for the start of an animation.
+     * @param {string} direction - Property defines whether an animation should be played forwards, backwards or in alternate cycles.
+     * @param {string} fill - Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both).
+     * @param {string} count - Property specifies the number of times an animation should be played.
+     * @param {string} state - Property specifies whether the animation is running or paused.
+     * @param {int} duration - Property defines how long an animation should take to complete one cycle.
+     * @param {string} timing - Specifies the speed curve of an animation.
+     * @param {array} ignore - The element count that will be ignored(Starting with 1...).
+     * @returns {void}
+     */
+x.createAnimation({
+    animation: 'spin',
+    delay: 3,
+    timing: 'linear'
+});
+```
