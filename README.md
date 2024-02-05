@@ -27,3 +27,17 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 | animate-bounce-in-right | bounce-in-right |
 | animate-bounce-out | bounce-out |
 | animate-bounce-out-down | bounce-out-down |
+| animate-rotate-in-down-left | rotate-in-down-left |
+| animate-rotate-in-up-left | rotate-in-up-left |
+| animate-hinge | hinge |
+| animate-roll-in | roll-in |
+| animate-roll-out | roll-out |
+| animate-beat | beat |
+
+### Options
+| type | class | value(s) |
+| ---- | ----- | ------ |
+| Speed | animate-speed-* | slow-x3, slow-x2, slow, fast, fast-x2, fast-x3|
+| Delay | animate-delay-* | 1, 2, 3, 4, 5 |
+| Direction | animate-dir-* | normal, reverse, alt, alt-reverse |
+| Fill | animate-fill-* | forwards, backwards, both, none |
