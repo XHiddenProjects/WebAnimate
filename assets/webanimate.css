@@ -239,7 +239,7 @@
 .animate-bounce-in-right {
     animation: animatebounceInRight 2s ease infinite;
   }
-@keyframes animatebounceInRightt {
+@keyframes animatebounceInRight {
     0% {
       opacity: 0;
       transform: translateX(2000px);
