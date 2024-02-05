@@ -41,3 +41,13 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 | Delay | animate-delay-* | 1, 2, 3, 4, 5 |
 | Direction | animate-dir-* | normal, reverse, alt, alt-reverse |
 | Fill | animate-fill-* | forwards, backwards, both, none |
+| count | animate-count-* | infinite, 1, 2, 3, 4, 5 |
+| State | animate-state-* | run, pause |
+| Duration | animate-dur-* | 0, 1, 2, 3, 4, 5 |
+| Timing | animate-timing-* | linear, ease, ease-in, ease-out, ease-in-out, step-start, step-end |
+
+***
+
+## How to execute CSS animatation
+To execute the animation on the element you must use one of the elements [Loaders table](#loaders)
+
