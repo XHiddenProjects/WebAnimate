@@ -1,3 +1,9 @@
+/*
+@project WebAnimate
+@author XHiddenProjects
+@version 0.0.1
+*/
+
 class WebAnimate{
     /**
      * Access to WebAnimate classes
