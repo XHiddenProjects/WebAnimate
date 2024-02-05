@@ -116,3 +116,24 @@ x.attachEvent('mouseover',animation);
 */
 x.stopEvent('mouseout',animation);
 ```
+Create animations from conditions, use **condAnimation()**
+```js
+/**
+     * Creates animations with a certain conditions
+     * @param {object} animate - JSON format of the number and conditions(Starting with 1...)
+     * @returns {void}
+*/
+x.condAnimation({
+    1:{//Targets the first element of the selected queries.
+        animation: 'roll-out',
+        speed: 'fast',
+        delay: 2,
+        direction: 'normal',
+        fill: 'none',
+        count: 'infinite',
+        state: 'run',
+        duration: 3,
+        timing: 'linear'
+    }
+});
+```
