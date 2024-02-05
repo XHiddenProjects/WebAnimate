@@ -90,10 +90,29 @@ The to create the animation type by using **createAnimation()**:
      * @param {string} timing - Specifies the speed curve of an animation.
      * @param {array} ignore - The element count that will be ignored(Starting with 1...).
      * @returns {void}
-     */
+*/
 x.createAnimation({
     animation: 'spin',
     delay: 3,
     timing: 'linear'
 });
+```
+
+To play/stop animations _ON EVENT_ triggers
+```js
+let animation = 'bounce';
+/**
+     * The event that will cause the element to play the animation.
+     * @param {string} eventName - The event that will get the element to play the animation.
+     * @param {string} animation - The animation that will be played after event has taken place.
+     * @returns {void}
+*/
+x.attachEvent('mouseover',animation);
+/**
+     * Kills off the event by action
+     * @param {string} eventName - The event that will stop the animation.
+     * @param {string} animation - The animation that will be removed after action is taken.
+     * @returns {void}
+*/
+x.stopEvent('mouseout',animation);
 ```
