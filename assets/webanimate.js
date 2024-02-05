@@ -1,7 +1,8 @@
 class WebAnimate{
     /**
-     * 
+     * Access to WebAnimate classes
      * @param {object} selector - Selected element(s).
+     * @returns {void}
      */
     constructor(selector) {
         this.elem = document.querySelectorAll(selector);
@@ -18,7 +19,7 @@ class WebAnimate{
     /**
      * Sets the speed of the animation.
      * @param {string} p - Options: slow-x3|slow-x2|slow|fast|fast-x2|fast-x3 
-     * @returns 
+     * @returns {void}
      */
     setSpeed(p){
         if(typeof p!=='string'){
@@ -30,6 +31,7 @@ class WebAnimate{
     /**
      * Sets the delay count(by seconds)
      * @param {int} d - Options: 1, 2, 3, 4, or 5. 
+     * @returns {void}
      */
     setDelay(d){
         if(typeof(d)!=='number'){
@@ -40,7 +42,7 @@ class WebAnimate{
     /**
      * Sets the direction of the animation.
      * @param {string} r - Options: normal|reverse|alt|alt-reverse.
-     * @returns 
+     * @returns {void}
      */
     setDirection(r){
         if(typeof r!=='string'){
