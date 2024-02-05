@@ -417,7 +417,7 @@
     animation-direction: alternate-reverse;
 }
 /*fill*/
-.animate-fill-fowards{
+.animate-fill-forwards{
     animation-fill-mode: forwards;
 }
 .animate-fill-backwards{
