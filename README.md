@@ -3,44 +3,44 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 
 ### Loaders
 
-| Class | JS |
-| --- | --- |
-| animate-spin | spin |
-| animate-elasticSpin | elasticSpin |
-| animate-pulse | pulse |
-| animate-flash | flash |
-| animate-shake | shake |
-| animate-shake2 | shake2 |
-| animate-grow | grow |
-| animate-fade-in | fade-in |
-| animate-fade-out | fade-out |
-| animate-bounce | bounce |
-| animate-bounce2 | bounce2 |
-| animate-flip | flip |
-| animate-swing | swing |
-| animate-wobble | wobble |
-| animate-fade-in-down | fade-in-down |
-| animate-fade-in-left | fade-in-left |
-| animate-fade-out-down | fade-out-down |
-| animate-fade-out-right | fade-out-right |
-| animate-bounce-in | bounce-in |
-| animate-bounce-in-right | bounce-in-right |
-| animate-bounce-out | bounce-out |
-| animate-bounce-out-down | bounce-out-down |
-| animate-rotate-in-down-left | rotate-in-down-left |
-| animate-rotate-in-up-left | rotate-in-up-left |
-| animate-hinge | hinge |
-| animate-roll-in | roll-in |
-| animate-roll-out | roll-out |
-| animate-beat | beat |
-| animate-flip-horz-bottom | flip-horz-bottom |
-| animate-flip-horz-top | flip-horz-top |
-| animate-flip-horz-back | flip-horz-back |
-| animate-flip-horz-forward | flip-horz-forward |
-| animate-flip-vert-right | flip-vert-right |
-| animate-flip-vert-left | flip-vert-left |
-| animate-flip-vert-backward | flip-vert-backward |
-| animate-flip-vert-forward | flip-vert-forward |
+| Class | JS | format |
+| --- | --- | ----- |
+| animate-spin | spin | 2D |
+| animate-elasticSpin | elasticSpin | 2D |
+| animate-pulse | pulse | 2D |
+| animate-flash | flash | 2D |
+| animate-shake | shake | 2D |
+| animate-shake2 | shake2 | 2D |
+| animate-grow | grow | 2D |
+| animate-fade-in | fade-in | 2D |
+| animate-fade-out | fade-out | 2D |
+| animate-bounce | bounce | 2D |
+| animate-bounce2 | bounce2 | 2D |
+| animate-flip | flip | 3D |
+| animate-swing | swing | 2D |
+| animate-wobble | wobble | 2D |
+| animate-fade-in-down | fade-in-down | 2D |
+| animate-fade-in-left | fade-in-left | 2D |
+| animate-fade-out-down | fade-out-down | 2D |
+| animate-fade-out-right | fade-out-right | 2D |
+| animate-bounce-in | bounce-in | 2D |
+| animate-bounce-in-right | bounce-in-right | 2D |
+| animate-bounce-out | bounce-out | 2D |
+| animate-bounce-out-down | bounce-out-down | 2D |
+| animate-rotate-in-down-left | rotate-in-down-left | 2D |
+| animate-rotate-in-up-left | rotate-in-up-left | 2D |
+| animate-hinge | hinge | 2D |
+| animate-roll-in | roll-in | 2D |
+| animate-roll-out | roll-out | 2D |
+| animate-beat | beat | 2D |
+| animate-flip-horz-bottom | flip-horz-bottom | 3D |
+| animate-flip-horz-top | flip-horz-top | 3D |
+| animate-flip-horz-back | flip-horz-back | 3D |
+| animate-flip-horz-forward | flip-horz-forward | 3D |
+| animate-flip-vert-right | flip-vert-right | 3D |
+| animate-flip-vert-left | flip-vert-left | 3D |
+| animate-flip-vert-backward | flip-vert-backward | 3D |
+| animate-flip-vert-forward | flip-vert-forward | 3D |
 
 ### Options
 | type | class | value(s) |
