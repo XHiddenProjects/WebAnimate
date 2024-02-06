@@ -325,10 +325,10 @@
     transform: rotateY(-180deg);
   }
 }
-.animate-flip-vert-backwards{
-  animation: animateFlipVertBackwards 1s linear infinite;
+.animate-flip-vert-backward{
+  animation: animateFlipVertBackward 1s linear infinite;
 }
-@keyframes animateFlipVertBackwards{
+@keyframes animateFlipVertBackward{
   0% {
     transform: translateZ(0) rotateY(0);
   }
@@ -336,10 +336,10 @@
     transform: translateZ(-260px) rotateY(-180deg);
   }
 }
-.animate-flip-vert-forwards{
-  animation: animateFlipVertForwardss 1s linear infinite;
+.animate-flip-vert-forward{
+  animation: animateFlipVertForward 1s linear infinite;
 }
-@keyframes animateFlipVertForwardss{
+@keyframes animateFlipVertForward{
   0% {
     transform: translateZ(0) rotateY(0);
   }
