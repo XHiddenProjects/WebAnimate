@@ -33,6 +33,14 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 | animate-roll-in | roll-in |
 | animate-roll-out | roll-out |
 | animate-beat | beat |
+| animate-flip-horz-bottom | flip-horz-bottom |
+| animate-flip-horz-top | flip-horz-top |
+| animate-flip-horz-back | flip-horz-back |
+| animate-flip-horz-forward | flip-horz-forward |
+| animate-flip-vert-right | flip-vert-right |
+| animate-flip-vert-left | flip-vert-left |
+| animate-flip-vert-backward | flip-vert-backward |
+| animate-flip-vert-forward | flip-vert-forward |
 
 ### Options
 | type | class | value(s) |
