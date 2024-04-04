@@ -1,9 +1,11 @@
 /*
 @project WebAnimate
 @author XHiddenProjects
-@version 0.0.2
+@version 0.0.3
 */
-
+[tabindex]{
+    outline: none;
+}
 /*Spin animation*/
 .animate-spin{
     animation: animateSpin 1s infinite linear;
@@ -346,6 +348,27 @@
   100% {
     transform: translateZ(160px) rotateY(180deg);
   }
+}
+/*Actions*/
+.animate-throw{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: animateThrow 2s infinite;
+}
+@keyframes animateThrow {
+    from{
+        bottom:0;
+        left:0;
+        transform: translate(0,0);
+        animation-timing-function: ease-out;
+    }
+    to{
+        bottom:50%;
+        left: 100%;
+        transform: translate(-100%,-50%);
+        animation-timing-function: ease;
+    }
 }
 /*unbalanced animations*/
 .animate-swing {
