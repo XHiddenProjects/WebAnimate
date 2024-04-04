@@ -41,6 +41,7 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 | animate-flip-vert-left | flip-vert-left | 3D |
 | animate-flip-vert-backward | flip-vert-backward | 3D |
 | animate-flip-vert-forward | flip-vert-forward | 3D |
+| animate-throw | throw | 2D |
 
 ### Options
 | type | class | value(s) |
