@@ -1,7 +1,7 @@
 /*
 @project WebAnimate
 @author XHiddenProjects
-@version 0.0.2
+@version 0.0.3
 */
 
 class WebAnimate{
@@ -133,6 +133,7 @@ class WebAnimate{
                 st=this.state,
                 du=this.dur,
                 tm=this.timing;
+                e.tabIndex = 0;
             this.handler[e] = e.addEventListener(eventName,function(event,s=sd,d=dy,r=dr,f=fl,c=ct,q=st,k=du,t=tm){
                 s!=='' ? this.classList.add(s) : '';
                 d!=='' ? this.classList.add(d) : '';
@@ -143,7 +144,6 @@ class WebAnimate{
                 k!=='' ? this.classList.add(k) : '';
                 t!=='' ? this.classList.add(t) : '';
                 this.classList.add('animate-'+animation);
-                
             });
         });
     }
