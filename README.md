@@ -1,6 +1,11 @@
 # WebAnimate
 Uses CSS animations with a JS functions as well with easy class targets and automatically load all targets.
 
+CSS/JS Link:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/XHiddenProjects/WebAnimate@main/assets/webanimate.css"/>
+```
+
 ### Loaders
 
 | Class | JS | format |
