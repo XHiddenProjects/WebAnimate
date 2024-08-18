@@ -3,8 +3,8 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 
 CSS/JS Link:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/XHiddenProjects/WebAnimate@0.0.4/assets/webanimate.css"/>
-<script src="https://cdn.jsdelivr.net/gh/XHiddenProjects/WebAnimate@0.0.4/assets/webanimate.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/XHiddenProjects/WebAnimate@0.0.5/assets/webanimate.css"/>
+<script src="https://cdn.jsdelivr.net/gh/XHiddenProjects/WebAnimate@0.0.5/assets/webanimate.js"></script>
 ```
 
 ### Loaders
