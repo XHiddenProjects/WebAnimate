@@ -4,6 +4,7 @@ Uses CSS animations with a JS functions as well with easy class targets and auto
 CSS/JS Link:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/XHiddenProjects/WebAnimate@main/assets/webanimate.css"/>
+<script src="https://cdn.jsdelivr.net/gh/XHiddenProjects/WebAnimate@main/assets/webanimate.js"></script>
 ```
 
 ### Loaders
